@@ -1,0 +1,78 @@
+.container
+{
+    max-width: 80%;
+    
+    padding:30px;
+  margin: auto;
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+}
+.container h1
+{
+    text-align: center;
+     font-family: 'Alkatra', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+    
+
+}
+.container p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(4, 2, 31);
+    font-weight: 600;
+    
+}
+input,textarea{
+    width:90%;
+    height: 3%;
+    margin: 8px 0px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    color: aliceblue;
+    background-color: purple;
+    padding: 8px 12px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 14px;
+    cursor: pointer;
+}
+.body
+{
+    background-position:0%;
+    background-image: url("https://scontent.fbho5-1.fna.fbcdn.net/v/t39.30808-6/299668256_428214676040069_1939353144748106103_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=WQVTt_cFlEsAX_GLNP7&_nc_ht=scontent.fbho5-1.fna&oh=00_AfB0dhR-CvupefLtEj-AjqFIG0gFYuezoM7GVzKpQtEUbA&oe=64324222");
+}
+
+.submit
+{
+    
+    color: green;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sriracha', cursive;
+}
